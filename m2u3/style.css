@@ -1,0 +1,128 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #011c40; /* Цвет фона веб-страницы */
+    color: #A7ebf2; /* Цвет основного текста */ 
+}
+h1 {
+    color: #54ACBF; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    position: absolute;
+    right: 800px;
+    
+    
+}
+h2 {
+    color: #bdf1f7; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    position: absolute;
+    right: 700px;
+    top: 140px;
+    
+}
+p{
+    box-shadow: -10px 0px 50px #26658c;
+    
+}
+
+.text1{
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    scale: 1.2;
+    
+}
+ul{
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    scale: 1.39;
+    
+}
+
+.ul1{
+    position: absolute;
+    top: 390px;
+    left: 725px;
+    scale: 1.689;
+    
+}
+
+.end{
+    position: absolute;
+    top: 520px;
+    left: 600px;
+    scale: 1.7;
+    color: #d1f4fd;
+    
+}
+
+li span{
+    color: #d1f4fd;
+}
+
+.square{
+    width: 1800px;
+    height: 700px;
+    background-color: #54ACBF;
+    border-radius: 20px;
+    position: absolute;
+    left: 70px;
+    top: 110px;
+    opacity: 0.5;
+     box-shadow: -10px 0px 50px #26658c;
+    
+
+}
+.square2{
+    width: 1850px;
+    height: 750px;
+    background-color: #26658c;
+    border-radius: 20px;
+    position: absolute;
+    left: 45px;
+    top: 85px;
+    box-shadow: -10px 0px 50px #205677;
+    
+}
+.square3{
+    width: 1900px;
+    height: 800px;
+    background-color: #023589;
+    border-radius: 20px;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+     box-shadow: -10px 0px 50px #205677;
+}
+
+.widget{
+    position: absolute;
+    bottom: 180px;
+    scale: 0.8;
+    left: 100px;
+    border-radius: 20px;
+
+}
+
+/* Сделать изображение поверх квадратов */
+.my_imag{
+    width: 305px;
+    height: 305px;
+    position: absolute; 
+    left: 100px; 
+    top: 200px; 
+    z-index: 999; 
+    box-shadow: -10px 20px 30px #26658c;
+    border-radius: 8px;
+   
+}
+
+.my_imag:hover{
+    transform: translateY(-8px);
+}
+
+
+
